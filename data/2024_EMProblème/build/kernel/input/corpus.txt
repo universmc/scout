@@ -1,1 +1,0 @@
- texte d'extraction de contenu à partir d'un modèle mistral
