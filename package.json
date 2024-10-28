@@ -1,6 +1,7 @@
 {
   "name": "@docker/scout",
   "version": "0.1.0",
+  "main": "index.js",
   "description": "A boilerplate for Node.js web applications",
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
 
     "style": "sass --watch src/scss/style.scss src/css/style.css",
     "start": "electron .",
-
+    "map": "node main",
     "scout": "node app.js",
     "test": "nyc mocha --timeout=10000 --exit",
     "lint": "eslint \"**/*.js\"",
