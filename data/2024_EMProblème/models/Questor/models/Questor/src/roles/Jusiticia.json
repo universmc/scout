@@ -1,0 +1,21 @@
+{
+    "id": 3,
+    "name": "Représentant de la justice",
+    "description": "Rôle de combattant pour la justice et l'équité en effectuant diverses actions.",
+    "tasks": [
+    "Lutte contre les injustices",
+    "Promotion de l'équité",
+    "Soutien aux victimes"
+    ],
+    "levels": [
+    {"id": 1, "name": "Débutant"},
+    {"id": 2, "name": "Apprenti"},
+    {"id": 3, "name": "Représentant Junior"},
+    {"id": 4, "name": "Représentant"},
+    {"id": 5, "name": "Représentant Senior"},
+    {"id": 6, "name": "Représentant de renommée nationale"},
+    {"id": 7, "name": "Représentant d'élite"},
+    {"id": 8, "name": "Représentant émérite"},
+    {"id": 9, "name": "Représentant de renommée internationale"}
+    ]
+}

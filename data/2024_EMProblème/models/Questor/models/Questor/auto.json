@@ -1,0 +1,15 @@
+{
+    "id": 4,
+    "title": "Automatisation",
+    "subtitles": {
+    "automatisation_avec_ifttt": "Automatisation avec IFTTT",
+    "automatisation_avec_tasker": "Automatisation avec Tasker",
+    "apprentissage_automatique": "Apprentissage automatique"
+    },
+    "content": {
+    "automatisation_avec_ifttt": "IFTTT (If This Then That) est une application qui vous permet de connecter différents services et d'automatiser des tâches en fonction de conditions spécifiques. Par exemple, vous pouvez automatiser l'envoi d'un SMS lorsqu'un nouvel événement est ajouté à votre calendrier.",
+    "automatisation_avec_tasker": "Tasker est une application d'automatisation avancée pour Android qui vous permet de créer des tâches complexes en fonction de diverses conditions telles que l'emplacement, l'heure ou les actions de l'utilisateur.",
+    "apprentissage_automatique": "Android utilise l'apprentissage automatique pour adapter et personnaliser votre expérience utilisateur. Il propose des informations pertinentes en fonction de votre historique d'utilisation et de vos préférences, comme l'affichage d'informations personnalisées sur votre écran d'accueil."
+    }
+    }
+    

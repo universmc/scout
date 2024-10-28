@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questor.js - Chronique Interactive</title>
+</head>
+<body>
+  <h1>Chronique Interactive sur l'Évasion Fiscale</h1>
+  <div id="chapters"></div>
+
+  <script>
+    const chapters = [
+      {
+        "id": 1,
+        "title": "Introduction",
+        "content": "Présentation de la problématique, explication de l'importance du sujet et annonce de la gamification future.",
+        "roles": ["Journaliste", "Enquêteur", "Représentant de la justice", "Magistrat"],
+        "settings": {
+          "difficulty": {
+            "value": "normal",
+            "options": ["facile", "normal", "difficile"]
+          },
+          "language": {
+            "value": "fr",
+            "options": ["fr", "en", "es"]
+          },
+          "music": {
+            "value": true,
+            "options": [true, false]
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Contexte",
+        "content": "Présentation des GAFAM et de leurs pratiques, explication de l'évasion fiscale et définition des métiers de journaliste, enquêteur et représentant de la justice.",
+        "roles": ["Journaliste", "Enquêteur", "Représentant de la justice", "Magistrat"],
+        "settings": {
+          "difficulty": {
+            "value": "difficile",
+            "options": ["facile", "normal", "difficile"]
+          },
+          "language": {
+            "value": "fr",
+            "options": ["fr", "en", "es"]
+          },
+          "music": {
+            "value": false,
+            "options": [true, false]
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Gamification",
+        "content": "Présentation des personnages et des rôles, introduction de la carte interactive de 'l'évasion fiscale' et début des missions, énigmes et tâches pour les visiteurs.",
+        "roles": ["Utilisateur", "Journaliste", "Enquêteur", "Représentant de la justice"],
+        "settings": {
+          "difficulty": {
+            "value": "normal",
+            "options": ["facile", "normal", "difficile"]
+          },
+          "language": {
+            "value": "fr",
+            "options": ["fr", "en", "es"]
+          },
+          "music": {
+            "value": true,
+            "options": [true, false]
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Analyse des résultats",
+        "content": "Récapitulation des réalisations des utilisateurs, présentation de statistiques et de graphiques et encouragement pour les utilisateurs à poursuivre leur quête.",
+        "roles": ["Journaliste", "Enquêteur", "Magistrat"],
+        "settings": {
+          "difficulty": {
+            "value": "normal",
+            "options": ["facile", "normal", "difficile"]
+          },
+          "language": {
+            "value": "fr",
+            "options": ["fr", "en", "es"]
+          },
+          "music": {
+            "value": false,
+            "options": [true, false]
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Conclusion",
+        "content": "Récapitulation de la problématique, présentation des leçons apprises et appel à l'action pour les visiteurs.",
+        "roles": ["Utilisateur", "Journaliste", "Enquêteur"],
+        "settings": {
+          "difficulty": {
+            "value": "facile",
+            "options": ["facile", "normal", "difficile"]
+          },
+          "language": {
+            "value": "fr",
+            "options": ["fr", "en", "es"]
+          },
+          "music": {
+            "value": true,
+            "options": [true, false]
+          }
+        }
+      }
+    ];
+
+    const chapterContainer = document.getElementById('chapters');
+
+    chapters.forEach(chapter => {
+      const chapterElement = document.createElement('div');
+      chapterElement.innerHTML = `
+        <h2>${chapter.title}</h2>
+        <p>${chapter.content}</p>
+        <p><strong>Rôles:</strong> ${chapter.roles.join(', ')}</p>
+        <p><strong>Difficulté:</strong> ${chapter.settings.difficulty.value}</p>
+        <p><strong>Langue:</strong> ${chapter.settings.language.value}</p>
+        <p><strong>Musique:</strong> ${chapter.settings.music.value ? 'Oui' : 'Non'}</p>
+      `;
+      chapterContainer.appendChild(chapterElement);
+    });
+  </script>
+</body>
+</html>

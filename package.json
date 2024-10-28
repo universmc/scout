@@ -21,6 +21,7 @@
 
     "style": "sass --watch src/scss/style.scss src/css/style.css",
     "start": "electron .",
+    "srv": "json-server --watch db.json",
     "map": "node main",
     "scout": "node app.js",
     "test": "nyc mocha --timeout=10000 --exit",

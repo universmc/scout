@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* ======= GENERAL =========== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b2138;
+  color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+#chapter-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#drag-elements {
+  display: flex;
+  gap: 20px;
+}
+
+.draggable {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  font-size: 1.5em;
+  cursor: grab;
+}
+
+#drop-area {
+  width: 400px;
+  height: 200px;
+  border: 3px dashed white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ======= NAVIGATION ======== */
+nav {
+  background-color: #0b2138;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ======= CONTENT =========== */
+#container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("background-finance.jpg"); /* Exemple d'image d'arrière-plan pour le chapitre 1 */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.product-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ======= FOOTER =========== */
+footer {
+  background-color: #0b2138;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  color: #555;
+}
+
+footer a {
+  color: #0b2138;
+}
+
+/*# sourceMappingURL=style.css.map */

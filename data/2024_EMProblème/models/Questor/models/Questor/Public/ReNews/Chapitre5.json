@@ -1,0 +1,22 @@
+
+{
+    "id": 5,
+    "title": "Conclusion",
+    "content": "Récapitulation de la problématique, présentation des leçons apprises et appel à l'action pour les visiteurs.",
+    "roles": ["Utilisateur", "Journaliste", "Enquêteur"],
+    "settings": {
+      "difficulty": {
+        "value": "facile",
+        "options": ["facile", "normal", "difficile"]
+      },
+      "language": {
+        "value": "fr",
+        "options": ["fr", "en", "es"]
+      },
+      "music": {
+        "value": true,
+        "options": [true, false]
+      }
+    }
+  }
+  

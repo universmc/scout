@@ -1,0 +1,22 @@
+
+{
+    "id": 1,
+    "title": "Introduction",
+    "content": "Présentation de la problématique, explication de l'importance du sujet et annonce de la gamification future.",
+    "roles": ["Journaliste", "Enquêteur", "Représentant de la justice", "Magistrat"],
+    "settings": {
+      "difficulty": {
+        "value": "normal",
+        "options": ["facile", "normal", "difficile"]
+      },
+      "language": {
+        "value": "fr",
+        "options": ["fr", "en", "es"]
+      },
+      "music": {
+        "value": true,
+        "options": [true, false]
+      }
+    }
+  }
+  
