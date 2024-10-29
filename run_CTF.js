@@ -1,18 +1,49 @@
-const fs = require("fs");
+
+  const fs = require("fs");
 const Groq = require("groq-sdk");
 const groq = new Groq();
 
-const WORK_TIME = 120 * 60 * 1000; // 25 minutes in milliseconds (brainstorm)
+const WORK_TIME = 120 * 60 * 1000; // 120 minutes in milliseconds (brainstorm)
 const SHORT_BREAK_TIME = 5 * 60 * 1000; // 5 minutes in milliseconds
 const LONG_BREAK_TIME = 25 * 60 * 1000; // 25 minutes in milliseconds
 let brainstormCount = 0; // Renommé pour refléter la session de brainstorming
 
 // Exemple de tâches à suivre pendant les sessions
 const tasks = [
-  "définir les objectifs Smart",
-  "démontrer et évaluer la valeur du curriculum vitae numérique universel",
-  "présenter le Smart contrat umcTokens.sol et la value sable de Pi.coins"
-];
+    {
+      id: 1,
+      title: "Définir les objectifs Smart",
+      description: `Lancer un CTF avec une récompense de 500 ∏\_coins.ico pour le gagnant. Créer une vidéo de 68 secondes présentant le problème de la politique de croissance en tant que sujet de la "Chronique Anti Macroniste" avec Claude Martin, une IA dans le rôle de "system" sur YouTube. La structure de la vidéo devrait inclure :
+  
+  - Introduction (0-10 secondes): Présenter Claude Martin et mentionner l'objectif de la chronique.
+  - Problématique (10-30 secondes): Expliquer la politique de croissance et ses défis, axé sur la politique de croissance du gouvernement Macron.
+  - Approche alternative (30-50 secondes): Présenter Claude Martin Scout comme une solution pour une réforme transparente et équitable, et expliquer brièvement les concepts de CVUn et SocialChain.
+  - Mission Tracabilité et croissance (50-68 secondes): Aborder la mission de tracabilité et de croissance de 2017 à aujourd'hui et mentionner les technologies utilisées.
+  - Conclusion (68 secondes): Inviter les participants à rejoindre le CTF et à contribuer aux efforts de réforme, et référencer le fichier readme\_CTF.md sur https://boutique.elysee.fr.
+  `,
+  completed: false
+  },
+  {
+    id: 2,
+    title: "Chronique Anti Macroniste",
+    description: "mise en équation du problème présentée dans la variable ${synopsis}",
+    completed: false
+},
+    {
+      id: 2,
+      title: "Démontrer la valeur du CVUn",
+      description: "Présenter l'impact du Curriculum Vitae Universel pour valoriser les compétences",
+      completed: false
+  },
+    {
+      id: 3,
+      title: "SocialChain et Smart Contract",
+      description: "Présenter la solution innovante SocialChain et le Smart Contract umcTokens.sol",
+      completed: false
+  }
+  ];
+  
+
 
 // Fonction principale pour interagir avec l'IA et suivre les objectifs SMART
 async function main() {

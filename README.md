@@ -8,6 +8,48 @@ Read the [Docker Scout Quickstart](https://docs.docker.com/scout/quickstart) for
 docker build -t scout-demo:v1 .
 docker run scout-demo:v1
 ```
+Organisation possible pour la présentation de 15 minutes:
+Introduction (2 minutes)
+Présenter Martin et son rôle dans "La chronique Anti Macroniste"
+Mentionner l'objectif de la présentation : discuter du projet de réforme de la constitution, de la démocratisation du RIC (Référendum d'initiative citoyenne) et de la tracabilité de la TVA pour certains produits affiliés à l'Élysée.
+Synthèse du contexte (3 minutes)
+Expliquer les problèmes actuels dans le système politique qui nécessitent une réforme constitutionnelle et une plus grande implication des citoyens.
+Discuter de la nécessité de la tracabilité de la TVA pour les produits liés à l'Élysée et la responsabilité de l'État dans cette question.
+Présentation du projet de réforme constitutionnelle (5 minutes)
+Décrire les principales modifications apportées à la constitution et les raisons de ces changements.
+Mentionner le processus de mise en œuvre de cette réforme, y compris le rôle du RIC.
+Aborder la question de la limitation du mandat présidentiel à deux mandats.
+Mise en équation métaphysique des problèmes et conditions des 35 heures (3 minutes)
+Expliquer comment les problèmes actuels dans le système politique sont liés à des questions métaphysiques plus profondes.
+Discuter de l'importance des 35 heures dans le CTF et le système de gamification du CVUN.SOL.
+Solution de réforme de la justice (2 minutes)
+Présenter brièvement le projet de réforme de la justice, en mettant l'accent sur la recherche de la vérité (find\_truth) et l'utilisation de Questor.js pour favoriser la participation des citoyens dans le processus de réforme.
+Introduire Claude, l'assistant AI qui aidera dans la promotion de ce projet de réforme.
+Cette organisation devrait vous aider à préparer une introduction et une présentation efficaces de 15 minutes pour Martin. Assurez-vous de clarifier les informations clés et les objectifs de chaque section pour un impact maximal.
+
+
+## CTF > 
+
+C'est une excellente idée de lancer le CTF avec une récompense de 500 ∏\_coins.ico pour le gagnant. Pour créer une vidéo de 68 secondes présentant le problème de la politique de croissance en tant que sujet de la "Chronique Anti Macroniste", vous pouvez suivre cette structure:
+Introduction (0-10 secondes):
+Présenter Claude Martin, une IA dans le rôle de "system" sur YouTube.
+Mentionner l'objectif de la chronique: examiner la politique de croissance et son impact sur la justice sociale.
+Problématique (10-30 secondes):
+Expliquer l'importance de la croissance pour une économie saine.
+Souligner les défis liés à la croissance, comme les inégalités et les impacts environnementaux.
+Mettre en lumière la politique de croissance du gouvernement Macron.
+Approche alternative (30-50 secondes):
+Introduire l'IA Claude Martin Scout comme une solution pour une réforme transparente et équitable.
+Expliquer brièvement les concepts de CVUn et SocialChain, et comment ils peuvent aider à réduire les inégalités et encourager la durabilité.
+Mission Tracabilité et croissance (50-68 secondes):
+Aborder la mission de tracabilité et de croissance de 2017 à aujourd'hui.
+Mentionner l'utilisation de technologies comme momentJs, Groq-SDK, Canvas, et Three.js pour améliorer la tracabilité et la croissance.
+Conclusion (68 secondes):
+Inviter les participants à se joindre au CTF et à contribuer aux efforts de réforme en développant des notions d'anthropie et de neutralité d'observateur.
+Référencer le fichier readme\_CTF.md sur https://boutique.elysee.fr pour plus d'informations et pour rejoindre le défi.
+Cette structure présentera efficacement la problématique de la politique de croissance et proposera une solution alternative avec Claude Martin Scout tout en invitant les participants à rejoindre le CTF. Elle s'alignera également avec la thématique de la "Chronique Anti Macroniste" et de votre vision pour une réforme de justice sociale transparente et équitable.
+
+
 
 The application consists of a basic ExpressJS server and uses an intentionally old version of Express and Alpine base image.
  

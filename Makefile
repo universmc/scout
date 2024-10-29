@@ -29,6 +29,15 @@ ML_MSG="✨Match In Leraning✨"
 gptWallet_MSG="✨Initialisation de Gpt-WAllet✨"
 Mandatory_MSG="✨Initialisation du Mandataire✨"
 
+
+# Créer un hologramme pour Claude-IA
+claude: emoji
+emoji: 🕴️
+    role: user
+    name: Martin
+    content: `prompt(claude)`
+
+
 # Ajoutez une règle pour chaque commande
 
 commandeR:
